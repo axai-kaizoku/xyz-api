@@ -16,6 +16,6 @@ router.get('/', getMailsController);
 
 // StoreMail || POST
 
-router.post('/', storeMailController);
+router.post('/post', storeMailController);
 
 module.exports = router;
